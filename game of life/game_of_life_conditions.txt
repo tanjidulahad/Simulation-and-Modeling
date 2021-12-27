@@ -1,0 +1,31 @@
+Conway's Game of life :
+
+If the current cell is Dead Cell :
+
+1. If noOfLiveNeighbors <= 2 then the current cell remains dead cell.[underpopulation]
+2. If noOfLiveNeighbors =3 then the current cell becomes live cell.
+3.If noOfLiveNeighbors > 3, then the current cell remains dead cell.[over population]
+
+If the current cell is Live Cell :
+
+1. If noOfLiveNeighbors = 2 or noOfNeighbors = 3 then the current cell remains live cell.
+2. If noOfLiveNeighbors >3 then the current cell becomes dead cell[over population]
+3. If noOfLiveNeighbors < 2 then the current cell remains dead cell.[underpopulation]
+
+- rectangle() ;
+- pause();
+- table();
+
+Submission Deadline : 14/9/2021[Tuesday] ; Time : 1.00 AM ;
+
+
+
+
+
+
+
+
+
+
+
+
